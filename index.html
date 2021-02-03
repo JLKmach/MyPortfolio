@@ -8,7 +8,9 @@
     <!-- Bootstrap CSS -->
  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 
     
   </head>
@@ -16,12 +18,20 @@
   <body>
     <!-- Navigation-->
     
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top py-3 " id="mainNav" >
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">J</a>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top py-1 " id="mainNav" >
+        
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <h1>
+                J
+            </h1>
             
-        <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        </a>
+
+
+      
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav navbar-toggler-left">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About me</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
@@ -30,17 +40,39 @@
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
             </ul>
         </div>
+
+        <div class="nav-item ">
+            <a href="https://www.instagram.com/camacho.embajadorestec/" target="_blank">
+                <i class="fab fa-instagram fa-3x px-2" style="color:#e8eae6; "></i>
+            </a>
+            <a href="https://www.linkedin.com/in/josé-luis-camacho-estrada-7778b514b" target="_blank">
+                <i class="fab fa-linkedin fa-3x px-2" style="color:#e8eae6; "></i>
+            </a>   
+            <a href="https://github.com/JLKmach" target="_blank">
+                <i class="fab fa-github fa-3x px-2" style="color:#e8eae6; "></i>
+            </a>  
+        </div>
+
+        
+
+
+            
+        
+
+
+        
     </nav>
 
     
     <!-- Full Page Image Header with Vertically Centered Content -->
-    <div class="container-fluid" style="background:transparent url('assets/img/header.jpg') no-repeat center center /cover" id="page-top">
+    <div class="container-fluid" style="background:transparent url('assets/img/principal.jpg') no-repeat center center /cover" id="page-top">
         
         <div class="row justify-content-center">  
             <div class="col-lg-3 text-center">
                 <hr/> 
                 <div class="container py-5 text-center ">
                     <hr class="divider light my-4" />
+                    
                     <img src="assets/img/portfolio/thumbnails/yo_small.jpg" class="img-thumbnail" width="304" height="236" alt="yo_samll">
                 </div>
             </div>
@@ -66,25 +98,25 @@
     </div>
 
     <!-- About me-->
-    <section class="page-section bg-info" id="about">
-        <div >
+    <section class="page-section" id="about">
+        <div style="background: linear-gradient(to bottom, #343a40 15%, rgba(255, 255, 255, 0.664) 110%);" >
             <div class="row justify-content-center">  
                                 
                 <div class="col-lg-7 text-center">
-                    <hr class="divider bg-dark my-4" />
-                    <h2 class="text-white  mt-0">About me</h2>
-                    <hr class="divider bg-dark my-4" />
-                    <p class="text-white-50 mb-4">
+                    <hr class="divider bg-white my-4" />
+                    <h2 class="bg-warning  mt-0">About me</h2>
+                    <hr class="divider bg-white my-4" />
+                    <h5 class="text-white mb-4">
                         I am a person capable of solving challenges and projects related with mechanics, automation,
                             electronics, programming and control engineering, implementing technology, innovation design and creation of
                             smart devices. I consider me as committed and responsible person; I distinguish myself through my
                             high performance and leadership in multidisciplinary teams. My passion is to inspire new
                             generations transmitting my knowledge and sharing my experience.
-                    </p>
-                    <p class="text-white-50 mb-4">
+                    </h5>
+                    <h4 class="text-white mb-4">
                         In my spare time I really enojoy hanging out with my friends, I am black belt in TaekWonDo, I practiced professional volleyball in collage. I love watching series and playing videogames.
-                    </p>
-                    <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+                    </h4>
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="https://tec.mx/es/embajadores-tec" target="blank">I love what I do!</a>
                     <hr class="divider my-4" />
                 </div>
 
@@ -97,7 +129,7 @@
     <section class="page-section" id="education">
         <div class="container">
             <hr class="divider bg-dark my-4" />
-            <h2 class="text-center bg-warning mt-0">Education</h2>
+            <h2 class="text-center bg-danger mt-0">Education</h2>
             <hr class="divider bg-dark my-4" />
             
 
@@ -132,9 +164,12 @@
                                 LEADERSHIP SKILLS DIPLOMA
                             </h4>
                             <p class="card-text">
-                            INSTITUTO TECNOLÓGICO Y DE ESTUDIOS SUPERIORES DE MONTERREY
+                            ITESM CAMPUS QUERÉTARO
                             </p>
                             <p class="card-text">
+                                Liderazgo y Formación Estudiantil
+                            </p>
+                            <p class="card-text">    
                                 Ago 2016 - Dec 2020
                             </p>
                     </div>
@@ -148,6 +183,9 @@
                           <h4 class="card title">
                               MATLAB IMAGE PROCESSING
                           </h4>
+                          <p class="card-text">
+                              CICATA
+                          </p>
                           <p class="card-text">
                               CICATA INSTITUTO POLITÉCNICO NACIONAL
                           </p>
@@ -163,11 +201,14 @@
                     <div class="card-body text-center">
                       
                           <h4 class="card title">
-                              ASUME "SUPERACIÓN POR MI PAÍS"
+                              ASUME <br>"SUPERACIÓN POR MI PAÍS"
                           </h4>
                           <p class="card-text">
                               FUNDACIÓN TELMEX
                           </p>
+                          <p class="card-text">
+                              Beca Slim
+                        </p>
                           <p class="card-text">
                               Ene 2017 - Abr 2017
                           </p>
@@ -202,7 +243,7 @@
                     <div class="card-body text-center">
                     
                         <h4 class="card title">
-                            ETS TOEFL IBT
+                            ETS <br>TOEFL IBT
                         </h4>
                         <p class="card-text">
                             PTC - ENGLISH CENTRAL
@@ -288,7 +329,7 @@
         <div class="container text-center">
             <hr class="divider light my-4" />
             <h2 class="mb-4">Get a copy of my personal resume</h2>
-            <a class="btn btn-light btn-xl" href="https://startbootstrap.com/theme/creative/">Download PDF</a>
+            <a class="btn btn-light btn-xl" href="assets\img\portfolio\files\CV_JOSECAMACHO.pdf" target="blank" download><i class="fas fa-download"></i> Download PDF</a>
             <hr class="divider light my-4" />
         </div>
     </section>
@@ -333,5 +374,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>
